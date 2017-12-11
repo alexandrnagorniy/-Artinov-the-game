@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/WirldMap.unity
+    guid: 75d903501dcdac34dabff3d8622f60cf
+  - enabled: 1
+    path: Assets/Scenes/Hotel.unity
+    guid: 33ecaf5adee3b5f46b61cdb8450f2593
