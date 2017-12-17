@@ -37,6 +37,8 @@ public class NextSceneButton : MonoBehaviour {
 				if (wMap.energy >= energyCost) {
 					effector.GoToNextScene (scene);
 					wMap.GetEnergy (energyCost);
+
+
 				}	
 			}
 			
