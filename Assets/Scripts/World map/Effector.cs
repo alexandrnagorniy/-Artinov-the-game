@@ -15,7 +15,7 @@ public class Effector : MonoBehaviour {
 	public GameObject[] sliders;
 
 	public Transform player;
-	private WorldMapPlayerController pController;
+	private Controller pController;
 
 	private AsyncOperation async;
 	public GameObject loadingBack;
@@ -25,7 +25,7 @@ public class Effector : MonoBehaviour {
 	void Start () {
 		renderer = GetComponent<SpriteRenderer> ();
 		player = GameObject.FindGameObjectWithTag ("Player").transform;
-		pController = player.gameObject.GetComponent<WorldMapPlayerController> ();
+		pController = player.gameObject.GetComponent<Controller> ();
 	}
 	
 	// Update is called once per frame
@@ -49,14 +49,8 @@ public class Effector : MonoBehaviour {
 				} 
 				else 
 				{
-					if (!loadScene) {
-						async = SceneManager.LoadSceneAsync (sceneName);
-						//loadingBack.SetActive (true);
-						//loadingBar.fillAmount = async.progress;
-						loadScene = true;
-					} else
-						Debug.Log (async.progress);
-						
+					WorldMap map = Camera.main.GetComponent<WorldMap> ();
+
 				}
 			}
 		}

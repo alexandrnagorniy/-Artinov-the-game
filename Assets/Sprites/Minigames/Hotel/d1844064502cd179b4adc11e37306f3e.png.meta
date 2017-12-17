@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9a36b1218d94f2745ae0043c70512d4f
-timeCreated: 1510780804
+timeCreated: 1513382442
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -9,7 +9,7 @@ TextureImporter:
     21300004: d1844064502cd179b4adc11e37306f3e_2
     21300006: d1844064502cd179b4adc11e37306f3e_3
     21300008: d1844064502cd179b4adc11e37306f3e_4
-    21300010: d1844064502cd179b4adc11e37306f3e_5
+    21300010: 1
     21300012: StickMan
     21300014: d1844064502cd179b4adc11e37306f3e_7
     21300016: d1844064502cd179b4adc11e37306f3e_8
@@ -23,6 +23,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -38,10 +40,13 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,9 +102,10 @@ TextureImporter:
         width: 58
         height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: d1844064502cd179b4adc11e37306f3e_1
@@ -110,9 +116,10 @@ TextureImporter:
         width: 92
         height: 168
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: d1844064502cd179b4adc11e37306f3e_2
@@ -123,9 +130,10 @@ TextureImporter:
         width: 82
         height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: d1844064502cd179b4adc11e37306f3e_3
@@ -136,9 +144,10 @@ TextureImporter:
         width: 94
         height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: d1844064502cd179b4adc11e37306f3e_4
@@ -149,12 +158,13 @@ TextureImporter:
         width: 96
         height: 136
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: d1844064502cd179b4adc11e37306f3e_5
+      name: 1
       rect:
         serializedVersion: 2
         x: 24
@@ -162,9 +172,10 @@ TextureImporter:
         width: 135
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: StickMan
@@ -175,9 +186,10 @@ TextureImporter:
         width: 135
         height: 139
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: d1844064502cd179b4adc11e37306f3e_7
@@ -188,9 +200,10 @@ TextureImporter:
         width: 13
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: d1844064502cd179b4adc11e37306f3e_8
@@ -201,9 +214,10 @@ TextureImporter:
         width: 13
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: d1844064502cd179b4adc11e37306f3e_9
@@ -214,9 +228,10 @@ TextureImporter:
         width: 104
         height: 136
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
       name: d1844064502cd179b4adc11e37306f3e_10
@@ -227,11 +242,13 @@ TextureImporter:
         width: 154
         height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: 0
     outline: []
+    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
