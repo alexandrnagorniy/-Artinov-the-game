@@ -39,6 +39,9 @@ public class NextSceneButton : MonoBehaviour {
 					wMap.GetEnergy (energyCost);
 
 
+
+
+
 				}	
 			}
 			
