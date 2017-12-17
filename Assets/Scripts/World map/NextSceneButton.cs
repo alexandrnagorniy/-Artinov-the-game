@@ -11,12 +11,15 @@ public class NextSceneButton : MonoBehaviour {
 	public buttonType type;
 	public GameObject next;
 	public string scene;
+	public int energyCost;
 	private Effector effector;
 	private bool isStay;
+	private WorldMap wMap;
 	// Use this for initialization
 	void Start () 
 	{
 		effector = GameObject.FindGameObjectWithTag ("Effector").GetComponent<Effector> ();	
+		wMap = Camera.main.GetComponent<WorldMap> ();
 	}
 	
 	// Update is called once per frame
@@ -30,8 +33,17 @@ public class NextSceneButton : MonoBehaviour {
 		{
 			if(type == buttonType.location)
 				effector.GoToNextLocation (next);
-			if(type == buttonType.scene)
-				effector.GoToNextScene (scene);
+			if (type == buttonType.scene) {
+				if (wMap.energy >= energyCost) {
+					effector.GoToNextScene (scene);
+					wMap.GetEnergy (energyCost);
+
+
+
+
+
+				}	
+			}
 			
 		}
 	}
